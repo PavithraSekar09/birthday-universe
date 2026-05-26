@@ -1,0 +1,33 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  width: 420px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 30px;
+  padding: 35px;
+  text-align: center;
+  position: relative;
+  color: black;
+  backdrop-filter: blur(10px);
+}
+
+.popup button {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
